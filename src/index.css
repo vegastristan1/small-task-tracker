@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  background-color: #1e1e24;
+}
+
+@layer components {
+  .wrapper {
+    @apply px-5 py-12 max-w-7xl mx-auto flex flex-col relative z-10;
+  }
+}
+
+.card {
+  background-color: #2c2c34;
+}
+
+input:focus-visible {
+  outline: unset;
+}
