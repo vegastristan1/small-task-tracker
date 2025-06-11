@@ -1,1 +1,1 @@
-	Central location for TypeScript types
+//Central location for TypeScript types
